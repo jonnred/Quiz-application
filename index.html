@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="game-intro" class="section">
+        <div class="intro-container">
+            <div class="game-title"> Welcome to the Self Quiz Game </div>
+            <a href="#how-to-play" class="game-choices how-to-play">1. How to play </a>
+            <a href="#add-question" class="game-choices add-question">2. Add Question </a>
+            <a href="#add-question" class="game-choices add-question">3. Show Question/Answer </a>
+            <a href="#play-quiz" class="game-choices play-quiz">4. Play Quiz</a>
+        </div>
+    </section>
+    <section id="how-to-play" class="section">
+        <div class="how-to-play-container">
+            <div class="how-to-title">How to play</div>
+            <div class="how-to-description">
+                <ol>
+                    <li>Add some question in the menu.</li>
+                    <li>Play the game!</li>
+                    <li>It's easy right?</li>
+                </ol>
+            </div>
+            <div class="game-introduction">
+                <p>This game is created for you! this game is made to make <br>
+                    YOU ask yourself a question like crazy. Just kidding,<br>
+                    this game can help you memorize, what you want to memorize <br>
+                     in a fun way
+                </p>    
+            </div>
+            <a href="#game-intro">Return</a>
+        </div>
+    </section>
+    <section id="add-question" class="section">
+        <div class="add-question-container">
+            <ol>
+                <li><p>What is the title of this problem</p></li>
+                <input type="text" class="add-title-problem">
+                <li><p>What is the problem</p></li>
+                <input type="text" class="add-problem">
+                <li><p>What is the right/correct answer</p></li>
+                <input type="text" class="add-problem">
+                <li><p>What are the other answer (a)</p></li>
+                <input type="text" class="add-problem">
+                <li><p>What are the other answer (b)</p></li>
+                <input type="text" class="add-problem">
+                <li><p>What are the other answer (c)</p></li>
+                <input type="text" class="add-problem">
+                <li><p>What are the other answer (d)</p></li>
+                <input type="text" class="add-problem">
+            </ol>
+        </div>
+    </section>
+    <section id="quiz-section" class="section">
+        <div class="quiz-container">
+            <div class="quiz">
+                <div class="quiz-title">What is the question?</div>
+                <div class="quiz-problem">If you have a problem, what is the solution?</div>
+                <div class="quiz-choices">
+                    <ol>
+                        <li class="quiz-choices-a right-answer">Search at google</li>
+                        <li class="quiz-choices-b">Run away and forget about it</li>
+                        <li class="quiz-choices-c">don't treat it as a problem because it will become a problem if you do</li>
+                        <li class="quiz-choices-d">Go to your daddy and cry for help </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
